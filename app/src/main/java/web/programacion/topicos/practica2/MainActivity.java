@@ -15,6 +15,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     ListView list;
+
     List<Customer> items   = new ArrayList<Customer>();
     public static String consumer_key ="ck_b6e47939dd3439acbd30f7f82f58195f984beb74";
     public static String consumer_secret = "cs_88507983ce656fae8e5bdcc881de01930da4edeb";
