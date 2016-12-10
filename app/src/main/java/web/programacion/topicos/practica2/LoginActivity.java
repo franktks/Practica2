@@ -15,7 +15,7 @@ import org.json.JSONObject;
 import java.util.concurrent.ExecutionException;
 
 import web.programacion.topicos.practica2.task.LoginTask;
-import web.programacion.topicos.practica2.utils.NukeSSLCerts;
+import web.programacion.topicos.practica2.utils.NukeSSLCerts1;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        NukeSSLCerts.nuke();
+        NukeSSLCerts1.nuke();
 
 
         txtUsername = (EditText) findViewById(R.id.txtlogUsername);
