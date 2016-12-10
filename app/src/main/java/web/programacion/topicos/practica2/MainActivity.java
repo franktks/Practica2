@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     ListView list;
 
     List<Customer> items   = new ArrayList<Customer>();
-    public static String consumer_key ="ck_b6e47939dd3439acbd30f7f82f58195f984beb74";
-    public static String consumer_secret = "cs_88507983ce656fae8e5bdcc881de01930da4edeb";
-    public static String url = "https://192.168.0.23/wordpress/wc-api/v3/customers";
+    public static String consumer_key ="ck_9504739e63fdbdefa492559699298c92b10237ed";
+    public static String consumer_secret = "cs_b374d814c0b933e991812a107fe184de7fd94db3";
+    public static String url = "https://192.168.0.23/DeportesITC/wc-api/v3/customers";
     String auth_url = "https://192.168.0.23/wordpress/auth_users.php";
 
     String jsonResult, loginResult;
