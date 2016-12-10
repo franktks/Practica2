@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import web.programacion.topicos.practica2.model.Customer;
 import java.util.ArrayList;
