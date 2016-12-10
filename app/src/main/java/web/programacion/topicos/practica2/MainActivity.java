@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public static String consumer_secret = "cs_88507983ce656fae8e5bdcc881de01930da4edeb";
     public static String url = "https://192.168.0.23/wordpress/wc-api/v3/customers";
     String auth_url = "https://192.168.0.23/wordpress/auth_users.php";
+
     String jsonResult, loginResult;
     Dialog dLogin;
     CustomerAdapter cAdapter;
